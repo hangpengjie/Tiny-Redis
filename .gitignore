@@ -2,3 +2,5 @@
 .o
 server
 client
+test
+test.cpp
