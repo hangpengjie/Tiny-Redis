@@ -36,7 +36,7 @@ static int32_t read_full(int fd, char* buf, size_t n){
 }
 
 // 一次性将 buf 中的 n 个字节的数据全都写入到 fd
-static int32_t write_full(int fd, char* buf, size_t n){
+static int32_t write_full(int fd, const char* buf, size_t n){
     while(n > 0){
         ssize_t rv = write(fd, buf, n);
         if(rv <= 0){
