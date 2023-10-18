@@ -21,3 +21,5 @@
 [07](./07/) 用c++内置map实现 get set del
 
 - 这次实验并不难，prase cmd环节简单粗暴，debug时一定要细心
+
+[08](./08/) 自定义hashtable代替map
