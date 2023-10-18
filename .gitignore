@@ -4,3 +4,5 @@ server
 client
 test
 test.cpp
+CMakeLists.txt
+hashtable
